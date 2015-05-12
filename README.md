@@ -1,5 +1,5 @@
 # go-rateLimiter
-Schedule go subroutine using a rate limiter
+Schedule go subroutine using a simple rate limiter (yes another one!) :)
 
 example:
 
