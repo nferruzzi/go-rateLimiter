@@ -3,6 +3,7 @@ Schedule go subroutine using a rate limiter
 
 example:
 
+```go
 func main() {
 	limiter := RateLimiter.NewRateLimiter(time.Second / 10)
 
@@ -20,9 +21,11 @@ func main() {
 
 	time.Sleep(time.Second)
 }
+```
 
 output:
 
+```
 2015/05/12 23:15:59 Scheduled:0
 2015/05/12 23:15:59 Scheduled:1
 2015/05/12 23:15:59 Scheduled:2
@@ -43,3 +46,4 @@ output:
 2015/05/12 23:16:00 7: 701.697503ms
 2015/05/12 23:16:00 8: 801.24942ms
 2015/05/12 23:16:00 9: 901.623269ms
+```
